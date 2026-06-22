@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>九游官网 | 产品说明</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      background: #faf8f5;
+      font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+      color: #1e1e1c;
+      line-height: 1.7;
+      padding: 2rem 1.5rem;
+    }
+    .page {
+      max-width: 800px;
+      margin: 2rem auto;
+      background: #fffcf9;
+      padding: 2.6rem 2.4rem;
+      border-radius: 24px;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.04);
+    }
+    .hero {
+      margin-bottom: 2.4rem;
+      border-bottom: 1px solid #ece6dd;
+      padding-bottom: 1.2rem;
+    }
+    .hero h1 {
+      font-size: 2.2rem;
+      font-weight: 500;
+      letter-spacing: -0.01em;
+      color: #2c2b28;
+      margin-bottom: 0.4rem;
+    }
+    .hero .sub {
+      font-size: 1rem;
+      color: #7b756b;
+      border-left: 4px solid #d6cfc0;
+      padding-left: 1rem;
+      margin-top: 0.3rem;
+    }
+    .intro {
+      background: #f6f2ec;
+      padding: 1.4rem 1.6rem;
+      border-radius: 18px;
+      margin: 1.8rem 0;
+    }
+    .intro p {
+      margin: 0.3rem 0;
+    }
+    .highlight-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1.5rem;
+      margin: 2rem 0 1.6rem;
+    }
+    .card {
+      flex: 1 1 180px;
+      background: #ffffff;
+      padding: 1.2rem 1.2rem 1.6rem;
+      border-radius: 20px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.02);
+      border: 1px solid #efeae2;
+    }
+    .card h3 {
+      font-size: 1.1rem;
+      font-weight: 500;
+      margin-bottom: 0.5rem;
+      color: #3b3730;
+      display: flex;
+      align-items: center;
+      gap: 0.4rem;
+    }
+    .card h3::before {
+      content: "·";
+      font-weight: 700;
+      color: #b7aa95;
+      font-size: 1.6rem;
+      line-height: 1;
+    }
+    .card p {
+      font-size: 0.95rem;
+      color: #4f4942;
+    }
+    .usage-note {
+      background: #f0ede7;
+      padding: 1.2rem 1.6rem;
+      border-radius: 20px;
+      margin: 1.8rem 0;
+      border-left: 4px solid #bdb29e;
+    }
+    .usage-note strong {
+      color: #3e3a33;
+    }
+    .faq-section {
+      margin-top: 2.2rem;
+    }
+    .faq-item {
+      padding: 0.6rem 0;
+      border-bottom: 1px dashed #e1dad1;
+    }
+    .faq-item:last-child { border-bottom: none; }
+    .faq-q {
+      font-weight: 500;
+      color: #3f3b34;
+      margin-bottom: 0.15rem;
+    }
+    .faq-a {
+      color: #5e5850;
+      font-size: 0.95rem;
+    }
+    .footnote {
+      margin-top: 2.2rem;
+      padding-top: 1.2rem;
+      border-top: 1px solid #e7e0d6;
+      font-size: 0.9rem;
+      color: #8a8378;
+      text-align: left;
+    }
+    .footnote a {
+      color: #5c554b;
+      text-decoration: underline;
+      text-underline-offset: 3px;
+      text-decoration-color: #c8bfb0;
+      font-weight: 400;
+    }
+    .footnote a:hover {
+      color: #38342e;
+      text-decoration-color: #38342e;
+    }
+    @media (max-width: 500px) {
+      body { padding: 0.8rem; }
+      .page { padding: 1.6rem 1.2rem; }
+      .hero h1 { font-size: 1.7rem; }
+      .highlight-grid { gap: 1rem; }
+    }
+  </style>
+</head>
+<body>
+<div class="page">
+  <div class="hero">
+    <h1>了解九游 · 简单说明</h1>
+    <div class="sub">从识别用途出发，快速理清这是什么</div>
+  </div>
+
+  <div class="intro">
+    <p>如果你第一次接触「九游」，很可能想知道它是做什么的、是否适合自己。简单来说，九游是一个面向游戏爱好者的服务平台，提供游戏资讯、社区互动及部分相关辅助功能。很多玩家通过它了解新游戏、参与讨论或获取日常信息。你可以把 <strong>九游官网</strong> 看作一个了解游戏内容的起点，而不是一个需要注册才能使用的复杂工具。</p>
+  </div>
+
+  <div class="highlight-grid">
+    <div class="card">
+      <h3>信息聚合</h3>
+      <p>汇集多款游戏的动态、活动预告、版本更新说明，方便你快速浏览自己关注的游戏有没有新内容。</p>
+    </div>
+    <div class="card">
+      <h3>社区氛围</h3>
+      <p>玩家之间可以围绕游戏进行交流、分享攻略或截图，氛围偏向轻松互助，没有太多推销感。</p>
+    </div>
+    <div class="card">
+      <h3>轻量入口</h3>
+      <p>不需要复杂的流程，打开页面就能看到当前热门内容，适合只想看看、不打算深入的用户。</p>
+    </div>
+  </div>
+
+  <div class="usage-note">
+    <strong>💡 使用建议</strong><br>
+    你可以直接通过浏览器访问 <a href="https://register-9game.com">九游官网</a> 浏览当前内容，不需要下载额外软件。如果想参与讨论或收藏功能，可以关注页面上的引导。整体体验偏向“先看再决定”，没有强制的注册门槛。日常使用中，把它当作一个游戏信息聚合站即可。
+  </div>
+
+  <div class="faq-section">
+    <div class="faq-item">
+      <div class="faq-q">❓ 这个网站需要注册吗？</div>
+      <div class="faq-a">不强制。大部分内容（资讯、热门话题）可以直接浏览，注册是可选项，主要用于互动和个性化设置。</div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-q">❓ 内容来源可靠吗？</div>
+      <div class="faq-a">九游平台的内容由官方编辑与用户共同产出，游戏公告一般来自开发商或代理方，社区内容则带有个人观点，建议结合多方信息判断。</div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-q">❓ 适合什么样的用户？</div>
+      <div class="faq-a">轻度到中度游戏玩家，想快速了解游戏动态、看看其他玩家在聊什么，或者寻找某个游戏的实用情报。</div>
+    </div>
+  </div>
+
+  <div class="footnote">
+    本页仅作为产品功能说明，不引导任何具体行为。如需了解最新状况，可访问 <a href="https://register-9game.com">九游官网</a> 自行查看。内容基于公开信息整理，实际界面以官网为准。
+  </div>
+</div>
+</body>
+</html>
